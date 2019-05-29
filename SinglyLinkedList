@@ -108,26 +108,6 @@ public class SinglyLinkedList {
         return head;
     }
 	
-	
-	
-	
-	
-	public static void reverseAList(SinglyLinkedList sll) {
-		
-		Node n = sll.head;
-		if(n == null)
-			System.out.println("given list has no elements in it");
-		Node prev = null, next = null;
-		while(n != null) {
-			prev = n;
-			n = n.next;
-			
-		}
-		sll.head = n;
-		sll.head.next = prev;
-		
-		
-	}
 
 	public static void main(String[] args) {
 		SinglyLinkedList sll1 = new SinglyLinkedList();
